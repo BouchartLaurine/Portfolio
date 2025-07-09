@@ -1,0 +1,66 @@
+ a{
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+p{
+  font-size: 40px;
+}
+
+h1{
+  font-size: 96px;
+}
+h2{
+  font-size: 64px;
+}
+h3{
+  font-size: 48px;
+}
+
+html {
+  background-color: #FDF1D6;
+}
+/* ===Font-Size texte↑ === */
+
+
+nav {
+ margin-left: 45rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 34px;
+}
+
+nav img {
+  max-width: 34px;
+  max-height: 34px;
+}
+
+
+/* ===Navbar ↑=== */
+/* ===================En commun ↑ =================================================== */
+.top {
+  display: flex;
+  margin-top: 5px;
+}
+.top-txt  {
+  display: flex;
+  flex-direction: column;
+}
+.top h2{
+  width: 65rem;
+}
+.top img {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.top-txt {
+  width: 900px;
+  display: flex;
+}
