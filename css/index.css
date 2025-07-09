@@ -16,9 +16,14 @@ h2{
 h3{
   font-size: 48px;
 }
+button a {
+  font-size: 32px;
+}
 
 html {
   background-color: #FDF1D6;
+  margin-left: 10px;
+  margin-left: 10px;
 }
 /* ===Font-Size texte↑ === */
 
@@ -51,6 +56,7 @@ nav img {
 }
 .top h2{
   width: 65rem;
+  margin-bottom: 0%;
 }
 .top img {
   display: flex;
@@ -63,4 +69,74 @@ nav img {
 .top-txt {
   width: 900px;
   display: flex;
+}
+/* ==================Mini presentation↑==================== */
+button {
+  width: 260px;
+  height: 50px;
+  border-radius: 10px;
+   border: none;
+  gap: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+
+}
+
+.btn-projet {
+  background-color: #C08AD7;
+}
+.btn-projet a {
+  color: white;
+}
+
+.btn-contact {
+  border: 1px solid #333;
+}
+
+/* =====================Button ↑================== */
+.projet {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15rem;  
+}
+.item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+.item h2,
+.itms h3{
+  margin: 0%;
+}
+
+.item img {
+  width: 600px;
+  height: 350px; 
+}
+
+.item p {
+  width: 600px;
+}
+
+/* ==============Projet ↑============== */
+
+.mail {
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.email {
+  display: flex;
+  align-items: center; /* ✅ centrer verticalement */
+  background-color: blue;
+  justify-content: center;
+  gap: 10px;
+}
+
+.email img {
+  width: 70px;
+  height: 70px;
 }
