@@ -1,0 +1,48 @@
+ a{
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+p{
+  font-size: 40px;
+}
+
+h1{
+  font-size: 96px;
+}
+h2{
+  font-size: 64px;
+}
+h3{
+  font-size: 48px;
+}
+button a {
+  font-size: 32px;
+}
+
+html {
+  background-color: #FDF1D6;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+/* ===Font-Size texte↑ === */
+
+
+nav {
+ margin-left: 45rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 34px;
+}
+
+nav img {
+  max-width: 34px;
+  max-height: 34px;
+}
+
+
+/* ===Navbar ↑=== */
+/* ===================En commun ↑ =================================================== */
