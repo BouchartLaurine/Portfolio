@@ -123,16 +123,22 @@ button {
 /* ==============Projet ↑============== */
 
 .mail {
-  background-color: red;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  margin-left: 20px;
 }
 
 .email {
   display: flex;
-  align-items: center; /* ✅ centrer verticalement */
-  background-color: blue;
-  justify-content: center;
+  align-items: center;
+
+  justify-content: flex-start;
   gap: 10px;
 }
 
@@ -140,3 +146,4 @@ button {
   width: 70px;
   height: 70px;
 }
+
