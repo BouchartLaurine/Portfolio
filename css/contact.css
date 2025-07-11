@@ -46,3 +46,32 @@ nav img {
 
 /* ===Navbar ↑=== */
 /* ===================En commun ↑ =================================================== */
+.links{
+  display: flex;
+ margin-bottom: 10px;
+}
+.links img{
+  width: 70px;
+  height: 70px;
+}
+
+main {
+  display: flex;             
+  justify-content: space-between; 
+  align-items: center;        
+}
+
+main img {
+  width: 500px; 
+  height: auto;
+}
+
+.links {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+h1{
+  margin-bottom: 0%;
+}
