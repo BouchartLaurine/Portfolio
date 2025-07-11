@@ -46,3 +46,32 @@ nav img {
 
 /* ===Navbar ↑=== */
 /* ===================En commun ↑ =================================================== */
+.container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+}
+
+.container li{
+  margin: 15px;
+}
+
+/* Contenu texte */
+.container > div:first-child {
+  flex: 1;                
+  margin-right: 2rem;   
+}
+
+
+.img-content {
+  margin-top: 50px;
+  width: 500px;
+  height: 500px;
+}
+
+.img-content img {
+  max-width: 100%;        /* Image responsive */
+  height: auto;
+  display: block;
+}
+
