@@ -45,6 +45,20 @@ nav img {
 
 
 /* ===Navbar ↑=== */
+/* Thème sombre */
+body.dark {
+  background-color: #121212; 
+  color: #E0E0E0;           
+}
+
+body.dark nav {
+  background-color: #1f1f1f; 
+}
+
+body.dark a {
+  color: #E0E0E0; 
+}
+/* =====================Darkmode=================== */
 /* ===================En commun ↑ =================================================== */
 .container {
   display: flex;
