@@ -60,3 +60,50 @@ body.dark a {
 }
 /* =====================Darkmode=================== */
 /* ===================En commun ↑ =================================================== */
+@media screen and (max-width: 400px) {
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  nav ul {
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+  }
+
+  nav img {
+    max-width: 28px;
+    max-height: 28px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    max-width: 300px;
+    margin-right: 15px;
+    margin-left: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
