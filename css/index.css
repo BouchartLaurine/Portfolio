@@ -207,16 +207,16 @@ body.dark .btn-projet{
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
-    margin: 10px;
+    margin-right: 10px;
   }
 
   h2 {
     font-size: 20px;
     max-width: 300px;
-    margin-right: 15px;
-    margin-left: 20px;
+    margin: 0%;
+    text-align: center;
   }
 
   h3 {
@@ -262,10 +262,15 @@ body.dark .btn-projet{
     flex-direction: column;
     gap: 30px;
     align-items: center;
+    margin: 0%;
+  }
+
+  .projet img{
+    width: 300px;
   }
 
   .item {
-    width: 100%;
+    width: 300px;
     max-width: 350px;
   }
 
