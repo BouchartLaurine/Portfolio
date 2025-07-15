@@ -61,6 +61,31 @@ body.dark a {
 
 /* =====================Darkmode=================== */
 /* ===================En commun ↑ =================================================== */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 999;
+  width: 60px;       /* Largeur fixe */
+  height: 60px;      /* Hauteur fixe = cercle parfait */
+  background-color: #E86C3C;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;     /* Caché au début */
+  transition: opacity 0.3s;
+  display: flex;     /* Pour centrer le contenu */
+  justify-content: center;
+  align-items: center;
+}
+
+#scrollTopBtn:hover {
+  background-color: #c9542f;
+}
+
+/* === Bouton Remonter en haut↑=== */
 .top {
   display: flex;
   margin-top: 5px;

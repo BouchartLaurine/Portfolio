@@ -70,6 +70,26 @@ body.dark h3{
 /* =====================Darkmode=================== */
 /* ===================En commun ↑ =================================================== */
 
+#scrollTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 999;
+  background-color: #E86C3C;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none; /* Caché au début */
+  transition: opacity 0.3s;
+}
+
+#scrollTopBtn:hover {
+  background-color: #c9542f;
+}
+/* === Bouton Remonter en haut↑=== */
 .top{
   margin-top: 10rem;
   display: flex;
