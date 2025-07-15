@@ -89,3 +89,83 @@ body.dark a {
   display: block;
 }
 
+
+
+/* =================== Responsive pour mobile (iPhone 12) =================== */
+@media screen and (max-width: 768px) {
+
+  nav {
+    margin: 0;
+  }
+
+  nav ul {
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+  }
+
+  nav img {
+    max-width: 28px;
+    max-height: 28px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    max-width: 300px;
+    margin-right: 15px;
+    margin-left: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  li {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .container > div:first-child {
+    margin: 0 0 2rem 0;
+  }
+
+  .img-content {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .img-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  html {
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden;
+  }
+}
