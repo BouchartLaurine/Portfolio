@@ -3,6 +3,8 @@
 Bienvenue sur mon portfolio !  
 Vous y trouverez mes projets, mon parcours et mes informations de contact.
 
+[Lien Vercel du portfolio](https://portfolio-wine-mu-68.vercel.app/index.html)
+
 ## ✨ À propos
 
 Je m'appelle **Laurine Bouchart**, apprenante développeuse Front-End.  
