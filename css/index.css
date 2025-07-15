@@ -170,6 +170,13 @@ body.dark .btn-projet{
 .email img {
   width: 70px;
   height: 70px;
+  
+}
+/* ===Parralax=== */
+#mascotte-chat {
+  position: relative;
+  will-change: transform; /* pour optimiser le rendu */
+  transition: transform 0.1s ease-out;
 }
 
 
